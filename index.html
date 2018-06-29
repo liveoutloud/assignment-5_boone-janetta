@@ -4,13 +4,26 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
-
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
   <h1 onclick="myFunction()">Click me</h1>
   <!--<h1 id="firstHeading">Click me</h1>-->
+    <div class="container">
+      <form class="form" action="/action_page.php">
+        First name:<br>
+        <input id="firstName" class="form__input" type="text" name="firstname" value="Jane"><br>
+        Last name:<br>
+        <input id="lastName" class="form__input" type="text" name="lastname" value="Doe"><br>
+        Email:<br>
+        <input id="email" class="form__input" type="email" name="email" value="janedoe@mail.com"><br>
+        <textarea id="messageBox" class="form__input" name="message_box">Enter message here</textarea><br>
+        <input id="button" class="form__input--submit" type="submit" value="Submit">
+      </form>
+    </div>
       <script src="js/main.js"></script>
+      <script src="js/form.js"></script>
 </body>
 </html>

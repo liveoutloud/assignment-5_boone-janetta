@@ -1,0 +1,29 @@
+/* ========= STYLE GUIDE ============
+BLUE-TEAL #355C7D
+DUSTY-PURPLE #6C5B7B
+ROSE #C06C84
+HOT-SALMON #F67280
+PEACHY-BEIGE #F8B195 */
+
+body {
+  background-color: #6C5B7B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.container {
+  text-align: center;
+}
+
+.form__input, #button {
+  margin: 15px;
+  background-color: #F8B195;
+  color: #355C7D;
+  border-radius: 7px;
+  padding: 7px;
+}

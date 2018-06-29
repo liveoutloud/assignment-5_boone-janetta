@@ -7,8 +7,6 @@
 //});
 
 
-
-
 //My second commented-out idea creates a new line of text for each click,
 //but I can't figure out how to change the text to say click 2, click 3, etc.
 
@@ -18,3 +16,13 @@
 //   hOne.appendChild(one);
 //   document.body.appendChild(hOne);
 //}
+
+//document.querySelector('form.form').addEventListener('submit', function (e) {
+
+    //e.preventDefault();
+
+    //console.log('The firstName is: ' + nameInput.value);
+    //console.log('The lastName is: ' + lastNameInput.value);
+    //console.log('The email is: ' + emailInput.value);
+    //console.log('The message is: ' + messageInput.value);
+//});
