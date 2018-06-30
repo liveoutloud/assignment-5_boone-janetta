@@ -14,7 +14,7 @@ hThree.addEventListener( 'mouseover', function() {
   hThree.className = 'box';
 })
 
-//This event listener displays a fireworks gif when the list loads.
+//This event listener displays a fireworks gif when the paragraph loads.
 
 var firework = document.getElementById( 'paragraph' );
 
