@@ -16,13 +16,3 @@
 //   hOne.appendChild(one);
 //   document.body.appendChild(hOne);
 //}
-
-//document.querySelector('form.form').addEventListener('submit', function (e) {
-
-    //e.preventDefault();
-
-    //console.log('The firstName is: ' + nameInput.value);
-    //console.log('The lastName is: ' + lastNameInput.value);
-    //console.log('The email is: ' + emailInput.value);
-    //console.log('The message is: ' + messageInput.value);
-//});
